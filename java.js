@@ -1,6 +1,6 @@
-	var click = 0;
-	function click() {
-		click += 1;
-		document.getElementById("clicks").innerHTML = clicks;
-	};
-	
+var button = document.getElementByID("clickme")
+	count = 0;
+button.onclick = function() {
+	count += 1;
+	button.innerHTML = "Click me: " + count;
+};
