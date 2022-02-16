@@ -12,6 +12,8 @@ body{
 	text-align: center;
 	font-family: Arial;
 	justify-content: space-evenly;
+	column-gap: auto;
+
  }
 
 
@@ -21,6 +23,7 @@ body{
 	border-radius: 50%;
 	border: 4px solid black;
 	margin: auto;
+	margin-left: auto;
 	background-color: lightskyblue;
 }
 
@@ -38,6 +41,7 @@ body{
 	border-radius: 50%;
 	border: 4px solid black;
 	margin: auto;
+	margin-right: auto;
 	background: mediumpurple;
 }
 
