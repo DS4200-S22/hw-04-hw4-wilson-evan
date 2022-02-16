@@ -41,13 +41,21 @@ body{
 	background: mediumpurple;
 }
 
+button {
+	margin: 10px;
+}
+
+.bstyle {
+	background: transparent;
+	border: 2px solid white;
+}
+
 .c2:hover {
 
-
-border: 4px solid black;
+	border: 4px solid black;
 }
 
 .container1{
-	row-gap: 300px;
+	display:  flex;
 	justify-content: space-evenly;
 }
