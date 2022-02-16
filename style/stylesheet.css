@@ -10,8 +10,8 @@ body{
 	color: black;
 	background-color: white;
 	text-align: center;
-	justify-content: safe center;
-	font-familt: Arial;
+	font-family: Arial;
+	justify-content: space-evenly;
  }
 
 
@@ -21,7 +21,7 @@ body{
 	border-radius: 50%;
 	border: 4px solid black;
 	margin: auto;
-	background: lightskyblue;
+	background-color: lightskyblue;
 }
 
 .c2 {
@@ -55,7 +55,7 @@ button {
 	border: 4px solid black;
 }
 
-.container1{
+.container{
 	display:  flex;
 	justify-content: space-evenly;
 }
