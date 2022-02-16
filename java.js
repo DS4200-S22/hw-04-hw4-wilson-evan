@@ -1,15 +1,18 @@
-let click = 0;
+
+let clicks = 0;
+
 function c1click(){
-	click += 1;
-	document.getElementByID("click").innerHTML = click;
-}
+	clicks += 1;
+	document.getElementByID("clicks").innerHTML = clicks;
+};
 
 let visible = true;
-
-visible = !visible;
-if(visible) {
-	document.getElementByID("3button").style.opacity = "0.0";
-}
-else {
-	document.getElementByID("3button").style.opacity = "1.0";
-}
+function c3click(){
+	visible = !visible;
+	if(visible) {
+		document.getElementByID("3button").style.opacity = "0.0";
+	}
+	else {
+		document.getElementByID("3button").style.opacity = "1.0";
+	}
+};
